@@ -47,8 +47,7 @@ export default function Main({ match }){
       <Link to="/">
         <img src={logo} alt="Tindev" />
       </Link>
-      { users.length > 0 ? (
-        
+      { users.length > 0 ? (        
         <ul>
           {users.map(user => 
         <li key={user._id}>
